@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* responsive design */
+/* mobile first */
+/* .box {
+  padding: 2rem;
+  text-align: center;
+}
+.mobile {
+  background-color: orange;
+}
+.tablet {
+  background-color: teal;
+  display: none;
+}
+.desktop {
+  background-color: orangered;
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .mobile,
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .mobile,
+  .tablet {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+} */
+
+/* flexbox */
+/* .parent {
+  height: 250px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  overflow-x: auto;
+  gap: 0.5rem;
+  background-color: pink;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.child {
+  background-color: orange;
+  padding: 1rem;
+} */
+
+/* pseudo element & pseudo class */
+button {
+  background-color: orange;
+  color: #333;
+  padding: 0.5rem 3rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  transition: all 0.25s ease;
+  /* transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease; */
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: orangered;
+  color: #fff;
+}
+button:active {
+  transform: scale(1.2);
+}
+
+/* h1::before {
+  content: "🔥 ";
+}
+h1::after {
+  content: "*";
+  color: red;
+} */
+
+/* ::selection {
+  background-color: orange;
+  color: #333;
+} */
+
+/* order in css selector */
+/* p {
+  color: red !important;
+} */
+
+/* #paragraph-header {
+  background-color: orange;
+}
+.para {
+  background-color: pink;
+} */
